@@ -1,0 +1,19 @@
+{
+    "name": "bobroid/telegram-api",
+    "authors": [
+        {
+            "name": "BoBRoID",
+            "email": "n.gilko@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "ext-json": "*",
+        "php-curl-class/php-curl-class": "^8.3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "bobroid\\telegramApi\\": "src"
+        }
+    }
+}
